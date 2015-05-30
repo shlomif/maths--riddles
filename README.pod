@@ -1,0 +1,7 @@
+=encoding utf8
+
+=head1 Maths riddles
+
+Solutions to some maths riddles as collected by Shlomi Fish.
+
+=cut
