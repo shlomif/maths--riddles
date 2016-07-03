@@ -1,4 +1,4 @@
-Problem: find a number that divides by n with a reminder of n-1 for n in 
+Problem: find a number that divides by n with a reminder of n-1 for n in
 {2 .. 10 }.
 
 2, 3, 4, 5 - included in the upper numbers.
@@ -20,7 +20,7 @@ Problem: find a number that divides by n with a reminder of n-1 for n in
     (6*6+5 + 6*7*1) mod 8  = 3
     (6*6+5 + 6*7*3) mod 8 = 7
 
-    So, the numbers for 6..8 are 6*6+5+6*7*3 + lcm(6,8,7)*n = 
+    So, the numbers for 6..8 are 6*6+5+6*7*3 + lcm(6,8,7)*n =
         6*6+5+6*7*3 + 8*3*7*n
 
 9 with a reminder of 8:
@@ -42,7 +42,5 @@ Problem: find a number that divides by n with a reminder of n-1 for n in
     3 - 5
     4 - 9
 
-    Starts at: 6*6+5+6*7*3+8*3*7*2 + 3*3*2*2*2*7 * 4 
+    Starts at: 6*6+5+6*7*3+8*3*7*2 + 3*3*2*2*2*7 * 4
     Continues in: lcm(10,9,8,7,6) = 8*7*9*5
-
-
